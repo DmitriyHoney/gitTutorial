@@ -13,6 +13,12 @@ body {
     margin: 0 auto;
 }
 
+.section-title {
+    font-size: 25px;
+    color: rgb(24, 24, 24);
+    text-align: center;
+}
+
 div, p, form, input, a, span, button {
     box-sizing: border-box;
 }
@@ -111,4 +117,18 @@ button, button:hover, button:focus, button:active
     color: #000;
     border-bottom: 1px dotted #000;
     padding-bottom: 4px;
+}
+
+/*-----About-----*/
+.about {
+    padding: 100px 0px;
+    font-size: 18px;
+    color: orangered;
+}
+
+.card-about {
+    padding: 25px;
+    text-align: center;
+    font-size: 18px;
+    color: #ccc;
 }
