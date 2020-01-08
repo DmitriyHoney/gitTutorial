@@ -1,0 +1,114 @@
+/* ------ Спецификация ------ */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+div, p, form, input, a, span, button {
+    box-sizing: border-box;
+}
+
+p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 1.15em;
+}
+
+h2 {
+    font-size: 58px;
+}
+
+h3 {
+    font-size: 37px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+section {
+    
+}
+
+a, a:hover, a:active {
+    text-decoration: none;
+}
+
+a, button, input {
+    transition: all 0.5s ease;
+}
+
+.d-flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.btn {
+    font-weight: 900;
+    color: #fff;
+    background: #000;
+    font-size: 20px;
+    width: 311px;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 25px 0;
+    box-shadow: 0 1px 54px rgba(0,0,0,0.2);
+}
+
+.btn:hover {
+    box-shadow: 0 1px 10px rgba(0,0,0,0.8);
+}
+
+.btn:active {
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+ {
+    outline: none;
+}
+
+.link {
+    font-size: 17px;
+    color: #000;
+    border-bottom: 1px dotted #000;
+    padding-bottom: 4px;
+}
