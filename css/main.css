@@ -112,3 +112,24 @@ button, button:hover, button:focus, button:active
     border-bottom: 1px dotted #000;
     padding-bottom: 4px;
 }
+
+/*-----Header-----*/
+.header {
+    padding: 100px 0px;
+    color: #ccc;
+    background-color: rgb(250, 128, 128);
+}
+
+.logo {
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.contact {
+    font-size: 13px;
+    text-decoration: none;
+}
